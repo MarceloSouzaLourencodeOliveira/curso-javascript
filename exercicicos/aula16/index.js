@@ -5,7 +5,8 @@ const nome = 'luiz otavio'
 //                0        1        2
 const alunos = ['luiz', 'maria', 'joão']; // luiza, eduardo
 
-console.log(typeof alunos);
+//console.log(typeof alunos);
+//console.log(alunos instanceof Array);
 
 
 //alunos.push('luiza');
