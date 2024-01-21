@@ -51,8 +51,18 @@ const pessoa10 = {
     idade: 30,
 
     fala() {
-        console.log('ola mundo!');
+        console.log(`A minha idade atual é ${this.idade}.`);
+    },
+
+    incrementaIdade() {
+        this.idade++;
     }
 };
 
+pessoa10.fala();
+pessoa10.incrementaIdade();
+pessoa10.fala();
+pessoa10.incrementaIdade();
+pessoa10.fala();
+pessoa10.incrementaIdade();
 pessoa10.fala();
